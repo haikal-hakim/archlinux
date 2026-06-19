@@ -1,3 +1,4 @@
+```
                     alhakiim @ Athena
       /\           
      /  \          OS        : Arch Linux x86_64
@@ -6,3 +7,4 @@
   /   ,,   \       Packages  : 1068 (pacman)
  /   |  |   \      OS Age    : 82 days
 /_-''    ''-_\     Env       : Hyprland 0.55.4 (Wayland)
+```
