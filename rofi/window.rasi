@@ -1,0 +1,47 @@
+@import "config.rasi"
+
+configuration {
+    modi:                "window";
+    window-format:       "{w} {c} {t}";
+}
+
+window {
+    width:             700px;
+}
+
+mainbox {
+    orientation:      vertical;
+    background-color: transparent;
+    children:         [ "listview" ];
+}
+
+listview {
+    background-color: transparent;
+    columns:          5;
+    lines:            2;
+    spacing:          18px;
+    padding:          30px;
+    cycle:            false;
+}
+
+element {
+    orientation:      vertical;
+    padding:          20px 10px;
+    spacing:          12px;
+    children:         [ element-icon, element-text ];
+}
+
+element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+    size:              48px;
+    horizontal-align:  0.5;
+    vertical-align:    0.5;
+}
+
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+    horizontal-align:  0.5;
+    vertical-align:    0.5;
+}
